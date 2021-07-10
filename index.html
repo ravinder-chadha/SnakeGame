@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="icon" href="static/img/snake-icon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>My SnakeGame</title>
+</head>
+
+<body>
+    <audio src="static/music/food.mp3" id="audio3"></audio>
+    <audio src="static/music/gameover.mp3" id="audio4"></audio>
+    <audio src="static/music/move.mp3" id="audio2"></audio>
+    <audio src="static/music/music.mp3" id="audio1"></audio>
+    <div class="container">
+        <a href="#" class="speaker" onclick="speak()">
+            <span></span>
+        </a>
+        <div id="score">
+            Score: 0
+        </div>
+        <div id="Highscore">
+            HiScore: 0
+        </div>
+        
+        <div id="board">
+
+        </div>
+    </div>
+    <script src="static/script/index.js"></script>
+</body>
+
+</html>
